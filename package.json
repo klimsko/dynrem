@@ -5,6 +5,7 @@
   "homepage": "https://klimsko.github.io/dynrem",
   "dependencies": {
     "classnames": "^2.2.5",
+    "gh-pages": "^2.0.1",
     "ramda": "^0.23.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "engines": {
     "node": "6.9.4",
