@@ -2,6 +2,7 @@
   "name": "internet-shop-react-redux",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://klimsko.github.io/dynrem",
   "dependencies": {
     "classnames": "^2.2.5",
     "ramda": "^0.23.0",
