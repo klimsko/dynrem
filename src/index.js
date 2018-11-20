@@ -25,8 +25,7 @@ history.listen((location) => {
   if (window.gtag) {
     const gtag = window.gtag;
     console.log('send', 'pageview', location.pathname);
-    gtag('config', 'AW-790864943', {'page_path': location.pathname});
-    console.log('event 2')
+    gtag('config', ['AW-790864943', 'UA-129282058-1'], {'page_path': location.pathname});
   }
 });
 
